@@ -1,7 +1,7 @@
 import React, { useRef,useState, useEffect} from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
-import { ChatEngine, ChatEngineWrapper, ChatFeed, ChatSocket } from "react-chat-engine";
+import { ChatEngine } from "react-chat-engine";
 import { auth } from "../firebase";
 
 import { useAuth } from "../contexts/AuthContext";

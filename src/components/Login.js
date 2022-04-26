@@ -18,7 +18,6 @@ const Login = () =>{
                  Link to ={{ pathname: "https://developerdistrict.netlify.app/"}} target="_blank" aria-label="Return to DD's home page"> DD </Button>
                 <h2>Welcome to DDchat</h2>
                 <br/>
-                <h2></h2>
 
                 <div
                     className="login-button google"
