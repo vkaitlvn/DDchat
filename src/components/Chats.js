@@ -1,12 +1,13 @@
 import React, { useRef,useState, useEffect} from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
-import { ChatEngine } from "react-chat-engine";
+import { ChatEngine, ChatEngineWrapper, ChatFeed, ChatSocket } from "react-chat-engine";
 import { auth } from "../firebase";
 
 import { useAuth } from "../contexts/AuthContext";
 // import { Button } from "./ButtonElements2";
 
+import { Button } from './ButtonElements2';
 
 export default function Chats() {
     const didMountRef = useRef(false)
@@ -79,10 +80,11 @@ export default function Chats() {
         <div className="chats-page">
             <div className="nav-bar">
                 
-                <div className="logo-tab" Link to ={{ pathname: "https://623a02207240030008952600--heartfelt-semifreddo-e68b13.netlify.app/"}} target="_blank" aria-label="Return to DD's home page">
-                    DD
+                
+                <div className="logo-button">
+                    <Button Link to ={{ pathname: "https://developerdistrict.netlify.app/"}} target="_blank" aria-label="DDChat"> DD </Button>
+
                 </div>
-                {/* <Button> DD </Button> */}
                 <div className="logo-tab2">
                     DDChat
                 </div>
@@ -100,6 +102,19 @@ export default function Chats() {
                 userSecret={user.uid}
             />
                 {/* title: "3" */}
+
+            {/* <ChatEngineWrapper>
+                    <ChatSocket
+                        projectID= {"af66b987-3111-4b09-9efb-1511b5d954f5"}
+                        chatID='114370'
+                        chatAccessKey='ca-07598daf-2f5a-4d1c-ab32-7d2c5c8f7819'
+                        userName={user.email}
+                        userSecret={user.uid}
+                    
+
+                    />
+                    <ChatFeed activeChat='114370'/>
+                </ChatEngineWrapper> */}
         </div>
     )
 }

@@ -11,16 +11,16 @@ export const Button = styled(Link)`
     outline: none;
     border: none;
     cursor: pointer;
-    display: flex;
+    // display: flex;
     text-decoration: none;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    margin-left: 0px;
+    // margin-bottom: -10px;
+    // margin-top: 40px;
+    margin-left: 30px;
     margin-right: 0px;
 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    // justify-content: center;
+    // align-items: center;
+    // text-align: center;
     transition: all 0.2s ease-in-out;
 
     &:hover{
@@ -29,20 +29,20 @@ export const Button = styled(Link)`
         color: #fff;
     }
 
-    @media screen and (max-width: 280px){
-        font-size: 16px;
-    }
+    // @media screen and (max-width: 280px){
+    //     font-size: 16px;
+    // }
 
-    @media screen and (max-width: 320px){
-        font-size: 16px;
-    }
+    // @media screen and (max-width: 320px){
+    //     font-size: 16px;
+    // }
 
-    @media screen and (max-width: 360px){
-        font-size: 16px;
-    }
+    // @media screen and (max-width: 360px){
+    //     font-size: 16px;
+    // }
 
-    @media screen and (max-width: 375px){
-        font-size: 18px;
-        margin-top: 15px;
-    }
+    // @media screen and (max-width: 375px){
+    //     font-size: 18px;
+    //     margin-top: 15px;
+    // }
 `;

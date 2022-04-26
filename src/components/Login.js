@@ -4,11 +4,9 @@ import "firebase/app";
 import { auth } from "../firebase";
 
 
-
 import firebase from "firebase/compat/app";
 // import { Button } from "react-chat-engine";
 import { Button } from '../components/ButtonElements';
-
 
 
 const Login = () =>{
@@ -17,7 +15,7 @@ const Login = () =>{
              <div id="login-card">
 
                 <Button
-                 Link to ={{ pathname: "https://623a02207240030008952600--heartfelt-semifreddo-e68b13.netlify.app/"}} target="_blank" aria-label="Return to DD's home page"> DD </Button>
+                 Link to ={{ pathname: "https://developerdistrict.netlify.app/"}} target="_blank" aria-label="Return to DD's home page"> DD </Button>
                 <h2>Welcome to DDchat</h2>
                 <br/>
                 <h2></h2>
