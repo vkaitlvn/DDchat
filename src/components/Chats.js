@@ -100,21 +100,24 @@ export default function Chats() {
                 projectID= {"af66b987-3111-4b09-9efb-1511b5d954f5"}
                 userName={user.email}
                 userSecret={user.uid}
+                
             />
                 {/* title: "3" */}
 
-            {/* <ChatEngineWrapper>
-                    <ChatSocket
-                        projectID= {"af66b987-3111-4b09-9efb-1511b5d954f5"}
+                
+            {/* <ChatEngineWrapper> */}
+                    {/* <ChatSocket
+                        // projectID= {"af66b987-3111-4b09-9efb-1511b5d954f5"}
                         chatID='114370'
                         chatAccessKey='ca-07598daf-2f5a-4d1c-ab32-7d2c5c8f7819'
                         userName={user.email}
                         userSecret={user.uid}
+                        
                     
 
                     />
-                    <ChatFeed activeChat='114370'/>
-                </ChatEngineWrapper> */}
+                    <ChatFeed activeChat='114370'/> */}
+                {/* </ChatEngineWrapper> */}
         </div>
     )
 }
