@@ -97,7 +97,7 @@ export default function Chats() {
 
             <ChatEngine
                 height="calc(100vh - 66px)"
-                projectID= {"af66b987-3111-4b09-9efb-1511b5d954f5"}
+                projectID={"af66b987-3111-4b09-9efb-1511b5d954f5"}
                 userName={user.email}
                 userSecret={user.uid}
                 
